@@ -1,0 +1,52 @@
+<div class="menu-left-part">
+
+    <h1 class="site-logo">
+        <a href="#">
+            {{#if @blog.logo}}
+                <img src="{{@blog.logo}}" alt="{{@blog.title}}" />
+            {{else}}
+                {{@blog.title}}
+            {{/if}}
+        </a>
+    </h1>
+
+    <nav id="header-main-menu">
+        <ul class="main-menu sm sm-clean">
+            {{#foreach navigation}}
+                <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}">
+                    <a href="{{url absolute="true"}}">
+                        {{label}}
+                    </a>
+                </li>
+            {{/foreach}}
+        </ul>
+    </nav>
+
+    <!--
+    <footer>
+        <div class="footer-info">
+            <p class="footer-social">
+                <a href="#">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <a href="#">
+                    <span class="fa fa-twitter"></span>
+                </a>
+                <a href="#">
+                    <span class="fa fa-behance"></span>
+                </a>
+            </p>
+        </div>
+    </footer>
+    -->
+</div>
+
+<div class="menu-right-part">
+    <div>
+        <div id="hamburger" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </div>
+    </div>
+</div>

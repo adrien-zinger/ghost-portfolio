@@ -1,0 +1,63 @@
+@media screen and (max-width: 1024px) {
+    .site-content {
+        padding-bottom: 50px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .site-content {
+        padding-bottom: 50px !important;
+    }
+    .menu-right-part {
+        position: absolute;
+    }
+    .menu-right-part.open {
+        position: fixed;
+    }
+    .content-left {
+        float: none;
+        text-align: center;
+        width: 100%;
+        height: fit-content;
+    }
+    .content-left-holder {
+        position: relative;
+    }
+    .content-right {
+        width: 95%;
+        float: none;
+        margin: 0 auto;
+    }
+    .content-right-holder {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .welcome-content {
+        width: 100%;
+        padding: 0;
+    }
+    .welcome-image {
+        display: none;
+    }
+    .site-logo {
+        display: inline-block;
+    }
+    .site-description {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 40px;
+        text-align: left;
+    }
+    .flickity-prev-next-button.next {
+        right: 20px;
+        left: auto;
+        top: -40px;
+    }
+    .flickity-prev-next-button.previous {
+        right: 75px;
+        left: auto;
+        top: -40px;
+    }
+    .progress_bar_field_holder {
+        max-width: 100%;
+    }
+}

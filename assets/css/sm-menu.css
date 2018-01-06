@@ -1,0 +1,103 @@
+
+/* HOME
+******************************************************************************/
+
+#header-main-menu {
+    font-family: 'Roboto', sans-serif, Arial;
+    padding-left: 50px;
+}
+
+.main-menu.sm-clean {
+    background-color: transparent;
+    display: inline-block;
+}
+
+.sm-clean a {
+    position: relative;
+}
+
+.sm-clean a,
+.sm-clean a:hover,
+.sm-clean a:focus,
+.sm-clean a:active {
+    color: #ffffff;
+    padding: 5px 0;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.sm-clean a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background-color: #ffdf8b;
+    transition: width .3s;
+    position: absolute;
+    left: 0;
+    bottom: 14px;
+    z-index: -1;
+}
+
+.sm-clean a.current:after,
+.sm-clean a:hover:after,
+.sm-clean a:focus:after,
+.sm-clean a:active:after,
+.sm-clean a.highlighted:after,
+.sm-clean ul a:hover:after,
+.sm-clean ul a:focus:after,
+.sm-clean ul a:active:after,
+.sm-clean ul a.highlighted:after {
+    width: 100%;
+}
+
+.menu-left-part {
+    width: 200px;
+    position: fixed;
+    background-color: #212121;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 998;
+    top: 0;
+    left: -350px;
+    transition: .3s .2s left cubic-bezier(0.22, 0.61, 0.36, 1);
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    max-height: 100vh;
+}
+
+.menu-left-part.open {
+    left: 0;
+}
+
+.menu-left-part.done {
+    transition-delay: 0s !important;
+}
+
+.menu-right-part {
+    position: fixed;
+    width: 100px;
+    left: 0px;
+    top: 0;
+    z-index: 999;
+    transition: 0.2s left cubic-bezier(0.22, 0.61, 0.36, 1), 0s 0.2s background linear;
+}
+
+.menu-right-part.open {
+    left: -100px;
+}
+
+.menu-right-part.open a {
+    color: black;
+}
+
+.menu-right-part.open.done {
+    left: 0;
+}
+
+.menu-right-part.done {
+    left: -100px;
+}

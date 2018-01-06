@@ -1,0 +1,5 @@
+@media screen and (max-width: 1440px) {
+    .home .site-content {
+        padding-bottom: 0;
+    }
+}

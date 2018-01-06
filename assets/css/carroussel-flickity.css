@@ -1,0 +1,78 @@
+.carousel-cell {
+    margin-left: 10px;
+}
+
+.carousel-cell .post-num {
+    color: #a6a6a6;
+    padding-top: 25px;
+}
+
+.carousel-cell h3.entry-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0;
+    font-weight: 700;
+}
+
+.carousel-cell .cat-links {
+    color: #ccc;
+}
+
+.flickity-prev-next-button.next {
+    background-image: url(../images/arrow_right@2x.png);
+    background-size: 35px 20px;
+    width: 35px;
+    height: 20px;
+    transition: transform .3s ease;
+}
+
+.flickity-prev-next-button.previous {
+    background-image: url(../images/arrow_left@2x.png);
+    background-size: 35px 20px;
+    width: 35px;
+    height: 20px;
+    transition: transform .3s ease;
+}
+
+.flickity-prev-next-button.next:hover {
+    transform: translateX(10px);
+}
+
+.flickity-prev-next-button.previous:hover {
+    transform: translateX(-10px);
+}
+
+.carousel-slider img {
+    max-width: none;
+    max-height: 70vh;
+}
+
+.flickity-prev-next-button.next {
+    right: auto;
+    left: -60px;
+    z-index: 2;
+    bottom: 95px;
+    top: auto;
+}
+
+.flickity-prev-next-button.previous {
+    right: auto;
+    left: -110px;
+    z-index: 2;
+    bottom: 95px;
+    top: auto;
+}
+
+.flickity-prev-next-button {
+    background-color: transparent !important;
+}
+
+.flickity-prev-next-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.flickity-prev-next-button svg {
+    display: none !important;
+}
