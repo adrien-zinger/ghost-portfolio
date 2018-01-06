@@ -1,11 +1,11 @@
-#Intro
+# Intro
 
 This file should always be merged in master after modifications.
 This include a TODO list generic. And a guide line to develop. So we can work together and know who is doing what in which branch.
 
 
 
-#External link documentations/inspiration
+# External link documentations/inspiration
 (Feed this with every good websites, ideas, libs, docs)
 
 Themes ghost docs : [https://themes.ghost.org/docs](https://themes.ghost.org/docs)

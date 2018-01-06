@@ -1,4 +1,4 @@
-#GHOST THEME FOR A TRUE PORTFOLIO
+# GHOST THEME FOR A TRUE PORTFOLIO
 
  I like informatic, but I also like painting. And when I started looking for a a good theme I have been really disapointed. So I began to create my own Ghost theme free.
 
