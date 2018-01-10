@@ -24,6 +24,7 @@ the size of the picture, a comment etc..
 - [ ] Implement the systeme of tags
 - [ ] Create a little view for facebook
 - [ ] Limits number of images loaded, load posts with an offset
+    >> (feature_pagination)
 - [ ] Create a messages and like systeme that we can easily merge with ghost
 - [ ] Zoom view compatible with every devices
 - [ ] Implement the post page
